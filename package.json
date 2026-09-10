@@ -1,0 +1,26 @@
+{
+  "name": "mirra",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Mirra \u2014 AI aesthetic visualization platform. See your beauty goals before you decide.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "@types/react": "19.1.9",
+    "@types/react-dom": "19.1.7",
+    "tsx": "^4.23.13",
+    "typescript": "5.8.3"
+  }
+}
